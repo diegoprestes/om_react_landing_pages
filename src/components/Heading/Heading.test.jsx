@@ -6,7 +6,7 @@ import { theme } from '../../styles/theme';
 import { ThemeProvider } from 'styled-components';
 
 describe('<Heading />', () => {
-  test('should render with default values', () => {
+  it('should render with default values', () => {
     renderTheme(<Heading>texto</Heading>);
     const heading = screen.getByRole('heading', { name: 'texto' });
 
@@ -17,7 +17,7 @@ describe('<Heading />', () => {
     });
   });
 
-  test('should render with white color', () => {
+  it('should render with white color', () => {
     renderTheme(<Heading colorDark={false}>texto</Heading>);
     const heading = screen.getByRole('heading', { name: 'texto' });
 
@@ -26,7 +26,7 @@ describe('<Heading />', () => {
     });
   });
 
-  test('should render correct heading sizes', () => {
+  it('should render correct heading sizes', () => {
     const { rerender } = renderTheme(<Heading size="sm">texto</Heading>);
     const heading = screen.getByRole('heading', { name: 'texto' });
 
@@ -65,7 +65,7 @@ describe('<Heading />', () => {
     });
   });
 
-  test('should render correct font-size when desktop', () => {
+  it('should render correct font-size when desktop', () => {
     renderTheme(<Heading size="xl">texto</Heading>);
     const heading = screen.getByRole('heading', { name: 'texto' });
 
@@ -74,7 +74,7 @@ describe('<Heading />', () => {
     });
   });
 
-  test('should render with uppercase letter', () => {
+  it('should render with uppercase letter', () => {
     renderTheme(<Heading uppercase>texto</Heading>);
     const heading = screen.getByRole('heading', { name: 'texto' });
 
@@ -83,10 +83,16 @@ describe('<Heading />', () => {
     });
   });
 
-  test('should render correct heading element', () => {
+  it('should render correct heading element', () => {
     const { container } = renderTheme(<Heading as="h6">texto</Heading>);
     const h6 = container.querySelector('h6');
 
     expect(h6.tagName.toLowerCase()).toBe('h6');
+  });
+
+  it('should match snapshot', () => {
+    const { container } = renderTheme(<Heading>texto</Heading>);
+
+    expect(container.firstChild).toMatchSnapshot();
   });
 });

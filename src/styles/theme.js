@@ -25,5 +25,14 @@ export const theme = {
     md: '(min-width: 1024px)',
     lg: '(min-width: 1200px)'
   },
-  spacings: {}
+  spacings: {
+    xs: '0.8rem',
+    sm: '1.6rem',
+    md: '2.4rem',
+    lg: '3.2rem',
+    xl: '4.0rem',
+    '2xl': '4.8rem',
+    '3xl': '5.6rem',
+    '4xl': '6.4rem'
+  }
 };
