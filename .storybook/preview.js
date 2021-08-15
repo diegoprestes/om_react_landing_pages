@@ -6,7 +6,8 @@ export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
     matchers: {
-      color: /(background|color)$/i,
+      // color: /(background|color)$/i,
+      color: /(color)$/i,
       date: /Date$/
     }
   },
