@@ -51,6 +51,7 @@ exports[`<NavLinks /> should match snapshot 1`] = `
 }
 
 <nav
+  aria-label="Main menu"
   class="c0"
 >
   <a
@@ -108,20 +109,6 @@ exports[`<NavLinks /> should match snapshot 1`] = `
     target="_self"
   >
     Link 8
-  </a>
-  <a
-    class="c1"
-    href="#target9"
-    target="_self"
-  >
-    Link 9
-  </a>
-  <a
-    class="c1"
-    href="#target10"
-    target="_self"
-  >
-    Link 10
   </a>
 </nav>
 `;

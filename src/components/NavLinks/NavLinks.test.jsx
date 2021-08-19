@@ -17,7 +17,7 @@ describe('<NavLinks />', () => {
 
   it('should render media', () => {
     renderTheme(<NavLinks links={links}>children</NavLinks>);
-    expect(screen.getByText(/link 10/i).parentElement).toHaveStyleRule('flex-flow', 'row wrap', {
+    expect(screen.getByText(/link 8/i).parentElement).toHaveStyleRule('flex-flow', 'row wrap', {
       media: theme.media.sm
     });
   });
