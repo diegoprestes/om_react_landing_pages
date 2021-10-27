@@ -1,0 +1,20 @@
+import {{pascalCase name}} from '.';
+
+export default {
+  title: '{{pascalCase name}}',
+  component: {{pascalCase name}},
+  args: {
+    children: '{{pascalCase name}}'
+  },
+  argTypes: {
+    children: { type: 'string' }
+  }
+};
+
+export const Template = (args) => {
+  return (
+    <div>
+      <{{pascalCase name}} {...args} />
+    </div>
+  );
+};
