@@ -3,7 +3,7 @@ import GridText from '.';
 import mock from './mock';
 
 export default {
-  title: 'GridText',
+  title: 'Components/GridText',
   component: GridText,
   args: mock
 };

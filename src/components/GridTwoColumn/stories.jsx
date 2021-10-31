@@ -3,7 +3,7 @@ import GridTwoColumn from '.';
 import args from './mock';
 
 export default {
-  title: 'GridTwoColumn',
+  title: 'Components/GridTwoColumn',
   component: GridTwoColumn,
   args: args
 };

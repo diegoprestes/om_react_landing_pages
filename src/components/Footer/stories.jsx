@@ -1,7 +1,7 @@
 import Footer from '.';
 
 export default {
-  title: 'Footer',
+  title: 'Components/Footer',
   component: Footer,
   args: {
     children: `<p><a href="https://google.com">Feito com ❤ por Diego Prestes</a></p>`
