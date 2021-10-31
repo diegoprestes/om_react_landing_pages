@@ -76,11 +76,11 @@ exports[`<GridText /> should render with background 1`] = `
         >
           My grid
         </h2>
-        <p
+        <div
           class="c5 c6"
         >
           Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -92,11 +92,11 @@ exports[`<GridText /> should render with background 1`] = `
             >
               Teste 1
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum est a ex hendrerit malesuada. Aenean ornare placerat sapien, in lobortis odio suscipit et. Etiam eu erat elit. Nulla nec magna orci. Duis sit amet lectus a metus commodo ullamcorper nec nec nulla. Ut laoreet blandit arcu ac finibus. Proin finibus, risus porttitor sagittis mattis, orci mauris vehicula odio, quis suscipit erat diam a ante. Nullam vel metus ipsum.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -106,11 +106,11 @@ exports[`<GridText /> should render with background 1`] = `
             >
               Teste 2
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum est a ex hendrerit malesuada. Aenean ornare placerat sapien, in lobortis odio suscipit et. Etiam eu erat elit. Nulla nec magna orci. Duis sit amet lectus a metus commodo ullamcorper nec nec nulla. Ut laoreet blandit arcu ac finibus. Proin finibus, risus porttitor sagittis mattis, orci mauris vehicula odio, quis suscipit erat diam a ante. Nullam vel metus ipsum.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -120,11 +120,11 @@ exports[`<GridText /> should render with background 1`] = `
             >
               Teste 3
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum est a ex hendrerit malesuada. Aenean ornare placerat sapien, in lobortis odio suscipit et. Etiam eu erat elit. Nulla nec magna orci. Duis sit amet lectus a metus commodo ullamcorper nec nec nulla. Ut laoreet blandit arcu ac finibus. Proin finibus, risus porttitor sagittis mattis, orci mauris vehicula odio, quis suscipit erat diam a ante. Nullam vel metus ipsum.
-            </p>
+            </div>
           </div>
         </div>
       </div>
@@ -209,11 +209,11 @@ exports[`<GridText /> should render without background 1`] = `
         >
           My grid
         </h2>
-        <p
+        <div
           class="c5 c6"
         >
           Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
+        </div>
         <div
           class="c7"
         >
@@ -225,11 +225,11 @@ exports[`<GridText /> should render without background 1`] = `
             >
               Teste 1
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum est a ex hendrerit malesuada. Aenean ornare placerat sapien, in lobortis odio suscipit et. Etiam eu erat elit. Nulla nec magna orci. Duis sit amet lectus a metus commodo ullamcorper nec nec nulla. Ut laoreet blandit arcu ac finibus. Proin finibus, risus porttitor sagittis mattis, orci mauris vehicula odio, quis suscipit erat diam a ante. Nullam vel metus ipsum.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -239,11 +239,11 @@ exports[`<GridText /> should render without background 1`] = `
             >
               Teste 2
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum est a ex hendrerit malesuada. Aenean ornare placerat sapien, in lobortis odio suscipit et. Etiam eu erat elit. Nulla nec magna orci. Duis sit amet lectus a metus commodo ullamcorper nec nec nulla. Ut laoreet blandit arcu ac finibus. Proin finibus, risus porttitor sagittis mattis, orci mauris vehicula odio, quis suscipit erat diam a ante. Nullam vel metus ipsum.
-            </p>
+            </div>
           </div>
           <div
             class="c8"
@@ -253,11 +253,11 @@ exports[`<GridText /> should render without background 1`] = `
             >
               Teste 3
             </h3>
-            <p
+            <div
               class="c5 c6"
             >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rutrum est a ex hendrerit malesuada. Aenean ornare placerat sapien, in lobortis odio suscipit et. Etiam eu erat elit. Nulla nec magna orci. Duis sit amet lectus a metus commodo ullamcorper nec nec nulla. Ut laoreet blandit arcu ac finibus. Proin finibus, risus porttitor sagittis mattis, orci mauris vehicula odio, quis suscipit erat diam a ante. Nullam vel metus ipsum.
-            </p>
+            </div>
           </div>
         </div>
       </div>

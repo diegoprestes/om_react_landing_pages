@@ -75,11 +75,11 @@ exports[`<GridTwoColumn /> should render grid with two columns with background 1
           >
             Grid two columns
           </h2>
-          <p
+          <div
             class="c6"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum esse eveniet nam nisi repudiandae, explicabo non minus perspiciatis? Laudantium et dolorem omnis asperiores! Suscipit unde id dolore, provident ab quibusdam?
-          </p>
+          </div>
         </div>
         <div
           class=""
@@ -171,11 +171,11 @@ exports[`<GridTwoColumn /> should render grid with two columns without backgroun
           >
             Grid two columns
           </h2>
-          <p
+          <div
             class="c6"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum esse eveniet nam nisi repudiandae, explicabo non minus perspiciatis? Laudantium et dolorem omnis asperiores! Suscipit unde id dolore, provident ab quibusdam?
-          </p>
+          </div>
         </div>
         <div
           class=""
