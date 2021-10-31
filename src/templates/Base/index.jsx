@@ -5,7 +5,7 @@ import Menu from '../../components/Menu';
 import Footer from '../../components/Footer';
 import GoTop from '../../components/GoTop';
 
-const Base = ({ links = [], logoData, footerHtml, children }) => {
+const Base = ({ links, logoData, footerHtml, children }) => {
   return (
     <>
       <Menu links={links} logoData={logoData} />

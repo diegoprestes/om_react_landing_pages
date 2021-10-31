@@ -14,8 +14,14 @@ export const Grid = styled.div`
   ${({ theme }) => css`
     counter-reset: grid-counter;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: 1fr;
     gap: ${theme.spacings.lg};
+    overflow: hidden;
+    width: 100%;
+
+    @media ${theme.media.sm} {
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
   `}
 `;
 
